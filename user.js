@@ -6,14 +6,15 @@ export default class User
         this.age = age
         alert(yey);
     }
+
+    public function printName()
+    {
+        console.log(`The user is ${this.name}`);
+    }
+    
+    public function printAge()
+    {
+        console.log(`The ${user.name} is ${this.age}`);
+    }
 }
 
-export function printName(user)
-{
-    console.log(`The user is ${user.name}`);
-}
-
-export function printAge(user)
-{
-    console.log(`The ${user.name} is ${user.age}`);
-}

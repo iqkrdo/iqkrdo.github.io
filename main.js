@@ -1,5 +1,5 @@
 import User from './user.js'
 
-const user = new User('Bob', 11);
+var user = new User('Bob', 11);
 console.log(user);
-console.log("GoGo");
+user.printName();
