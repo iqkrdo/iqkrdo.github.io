@@ -3,8 +3,7 @@ export default class User
     constructor (name, age)
     {
         this.name = name;
-        this.age = age
-        alert(yey);
+        this.age = age;
     }
 
     public function printName()
