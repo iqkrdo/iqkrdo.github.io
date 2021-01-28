@@ -6,12 +6,12 @@ export default class User
         this.age = age;
     }
 
-    public function printName()
+    printName()
     {
         console.log(`The user is ${this.name}`);
     }
     
-    public function printAge()
+    printAge()
     {
         console.log(`The ${user.name} is ${this.age}`);
     }
