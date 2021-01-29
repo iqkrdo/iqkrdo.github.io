@@ -9,7 +9,7 @@ export default class User
     printName()
     {
         console.log(`The user is ${this.name}`);
-        alert("yo");
+        alert("yo!");
     }
     
     printAge()
